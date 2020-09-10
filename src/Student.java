@@ -10,8 +10,8 @@ public class Student {
         //all the input data will be compared to this specific student
         Student s = new Student();
         s.setFirstName("Pablo");
-        s.setage(25);
-        s.setmarried(false);
+        s.setAge(25);
+        s.setMarried(false);
 
         Scanner scan = new Scanner(System.in);
 
@@ -39,13 +39,13 @@ public class Student {
     public int getAge(){
         return this.age;
     }
-    public void setage(int age) {
+    public void setAge(int age) {
         this.age = age;
     }
-    public boolean getmarried(){
+    public boolean getMarried(){
         return this.married;
     }
-    public void setmarried(boolean married) {
+    public void setMarried(boolean married) {
         this.married = married;
     }
 
