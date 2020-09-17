@@ -1,0 +1,11 @@
+# Default ignored files
+/.idea/workspace.xml
+
+# IDEA Ignores #
+################
+*.iml
+*.ipr
+*.iws
+.idea/
+out/
+local.properties
